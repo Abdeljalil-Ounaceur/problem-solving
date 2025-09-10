@@ -4,6 +4,7 @@
 ## Updates Log
 | Date | Summary |
 |------|---------|
+| 2025-09-10 | Solved LeetCode Problem #57: Insert Interval (Medium, Array/Sorting) - Implemented optimized three-phase solution with O(n) time complexity and O(n) space complexity for inserting and merging intervals |
 | 2025-09-10 | Solved LeetCode Problem #56: Merge Intervals (Medium, Array/Sorting) - Implemented solution using sorting by start time and greedy merging approach with O(n log n) time complexity for sorting and O(1) extra space complexity |
 | 2025-09-08 | Solved LeetCode Problem #53: Maximum Subarray (Medium, Array/Dynamic Programming/Divide and Conquer) - Implemented Kadane's algorithm with O(n) time and O(1) space complexity for finding maximum sum contiguous subarray |
 | 2025-09-08 | Solved LeetCode Problem #238: Product of Array Except Self (Medium, Array/Prefix Sum) - Implemented two-pass solution using left and right product arrays with O(n) time and O(1) extra space complexity (output array doesn't count as extra space) |
