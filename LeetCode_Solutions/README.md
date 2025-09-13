@@ -4,6 +4,7 @@
 ## Updates Log
 | Date | Summary |
 |------|---------|
+| 2025-09-13 | Solved LeetCode Problem #424: Longest Repeating Character Replacement (Medium, String/Sliding Window/Hash Table) - Implemented both unoptimized O(n²) solution expanding from each position and optimized O(n) sliding window solution using character frequency counting |
 | 2025-09-11 | Solved LeetCode Problem #435: Non-overlapping Intervals (Medium, Array/Dynamic Programming/Greedy/Sorting) - Implemented both initial solution sorting by start time and optimal solution sorting by end time with O(n log n) time complexity and O(1) space complexity for finding minimum intervals to remove |
 | 2025-09-10 | Solved LeetCode Problem #57: Insert Interval (Medium, Array/Sorting) - Implemented optimized three-phase solution with O(n) time complexity and O(n) space complexity for inserting and merging intervals |
 | 2025-09-10 | Solved LeetCode Problem #56: Merge Intervals (Medium, Array/Sorting) - Implemented solution using sorting by start time and greedy merging approach with O(n log n) time complexity for sorting and O(1) extra space complexity |
