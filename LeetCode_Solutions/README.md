@@ -1,7 +1,7 @@
 # LeetCode Solutions
 **Purpose:** Describe the work done in this category based on the August 2025 study schedule.
 
-## Updates Log
+## Updates Log 
 | Date | Summary |
 |------|---------|
 | 2025-09-14 | Solved LeetCode Problem #49: Group Anagrams (Medium, Array/Hash Table/String/Sorting) - Implemented both sorted-key solution (beats 99% users) with O(n*m*log m) complexity and character frequency counting solution with O(n*m) complexity |
