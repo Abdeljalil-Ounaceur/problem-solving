@@ -4,6 +4,7 @@
 ## Updates Log 
 | Date | Summary |
 |------|---------|
+| 2025-09-16 | Solved LeetCode Problem #11: Container With Most Water (Medium, Array/Two Pointers/Greedy) - Implemented two pointers technique starting from widest container and moving inward based on smaller height, achieving O(n) time complexity and O(1) space complexity |
 | 2025-09-16 | Solved LeetCode Problem #647: Palindromic Substrings (Medium, String/Dynamic Programming) - Implemented expand around centers approach to count all palindromic substrings, achieving O(n²) time complexity and O(1) space complexity |
 | 2025-09-16 | Solved LeetCode Problem #5: Longest Palindromic Substring (Medium, String/Dynamic Programming) - Implemented expand around centers approach with early termination optimization, achieving O(n²) time complexity and O(1) space complexity |
 | 2025-09-14 | Solved LeetCode Problem #49: Group Anagrams (Medium, Array/Hash Table/String/Sorting) - Implemented both sorted-key solution (beats 99% users) with O(n*m*log m) complexity and character frequency counting solution with O(n*m) complexity |
