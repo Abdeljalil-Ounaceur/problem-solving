@@ -4,6 +4,7 @@
 ## Updates Log 
 | Date | Summary |
 |------|---------|
+| 2025-09-23 | Solved LeetCode Problem #143: Reorder List (Medium, Linked List/Two Pointers/Stack/Recursion) - Implemented optimal three-step solution: find middle using slow/fast pointers, reverse second half, then merge alternately. Achieved O(n) time complexity and O(1) space complexity, beating 100.00% of users |
 | 2025-09-20 | Solved LeetCode Problem #23: Merge k Sorted Lists (Hard, Linked List/Divide and Conquer/Heap/Merge Sort) - Implemented heap-based solution using min heap with O(N log k) time complexity and O(k) space complexity, plus alternative divide and conquer approach for merging k sorted linked lists |
 | 2025-09-19 | Solved LeetCode Problem #42: Trapping Rain Water (Hard, Array/Two Pointers/Dynamic Programming/Stack/Monotonic Stack) - Implemented both unoptimized queue-based solution and optimized monotonic stack solution with O(n) time complexity for calculating trapped rainwater between elevation bars |
 | 2025-09-18 | Solved LeetCode Problem #76: Minimum Window Substring (Hard, Hash Table/String/Sliding Window) - Implemented both unoptimized solution with O(m*n) validation and optimal sliding window solution with O(m+n) time complexity using character frequency tracking and formed counter optimization |
