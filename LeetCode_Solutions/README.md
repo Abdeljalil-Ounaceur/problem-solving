@@ -4,6 +4,7 @@
 ## Updates Log 
 | Date | Summary |
 |------|---------|
+| 2025-09-26 | Solved LeetCode Problem #104: Maximum Depth of Binary Tree (Easy, Tree/DFS/BFS/Binary Tree) - Implemented three different approaches: initial solution with explicit depth tracking, optimal recursive solution incrementing on return, and iterative BFS solution using level-order traversal. All achieve O(n) time complexity with different space considerations |
 | 2025-09-25 | Solved LeetCode Problem #141: Linked List Cycle (Easy, Hash Table/Linked List/Two Pointers) - Implemented both hash set solution with O(n) space and optimal Floyd's Cycle Detection Algorithm (two pointers) with O(1) space complexity. The optimal solution uses slow/fast pointers to detect cycles, satisfying the follow-up requirement for constant memory usage |
 | 2025-09-24 | Solved LeetCode Problem #21: Merge Two Sorted Lists (Easy, Linked List) - Implemented both dummy node approach (optimal) and direct pointer manipulation solution. Achieved O(n+m) time complexity and O(1) space complexity for merging two sorted linked lists by splicing nodes together |
 | 2025-09-23 | Solved LeetCode Problem #143: Reorder List (Medium, Linked List/Two Pointers/Stack/Recursion) - Implemented optimal three-step solution: find middle using slow/fast pointers, reverse second half, then merge alternately. Achieved O(n) time complexity and O(1) space complexity, beating 100.00% of users |
