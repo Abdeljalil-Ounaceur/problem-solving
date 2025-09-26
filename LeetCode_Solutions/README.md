@@ -4,6 +4,7 @@
 ## Updates Log 
 | Date | Summary |
 |------|---------|
+| 2025-09-26 | Solved LeetCode Problem #226: Invert Binary Tree (Easy, Tree/DFS/BFS/Binary Tree) - Implemented recursive solution with in-place swapping and provided alternative iterative solutions using both BFS queue and DFS stack approaches. Achieved O(n) time complexity and O(h) space complexity for tree inversion |
 | 2025-09-26 | Solved LeetCode Problem #100: Same Tree (Easy, Tree/DFS/BFS/Binary Tree) - Implemented recursive solution with elegant logic using short-circuit evaluation and provided alternative iterative solution using stack. Achieved O(min(m,n)) time complexity and space complexity for comparing structural and value equality of binary trees |
 | 2025-09-26 | Solved LeetCode Problem #104: Maximum Depth of Binary Tree (Easy, Tree/DFS/BFS/Binary Tree) - Implemented three different approaches: initial solution with explicit depth tracking, optimal recursive solution incrementing on return, and iterative BFS solution using level-order traversal. All achieve O(n) time complexity with different space considerations |
 | 2025-09-25 | Solved LeetCode Problem #141: Linked List Cycle (Easy, Hash Table/Linked List/Two Pointers) - Implemented both hash set solution with O(n) space and optimal Floyd's Cycle Detection Algorithm (two pointers) with O(1) space complexity. The optimal solution uses slow/fast pointers to detect cycles, satisfying the follow-up requirement for constant memory usage |
