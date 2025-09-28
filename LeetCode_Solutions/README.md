@@ -4,6 +4,7 @@
 ## Updates Log 
 | Date | Summary |
 |------|---------|
+| 2025-09-28 | Solved LeetCode Problem #142: Linked List Cycle II (Medium, Hash Table/Linked List/Two Pointers) - Implemented both hash set solution with O(n) space and optimal Floyd's Cycle Detection Algorithm (two-phase approach) with O(1) space. The optimal solution uses mathematical proof to find cycle start: after detecting cycle with slow/fast pointers, reset slow to head and move both one step at a time until they meet at cycle beginning |
 | 2025-09-27 | Solved LeetCode Problem #19: Remove Nth Node From End of List (Medium, Linked List/Two Pointers) - Implemented both initial solution using three pointers (old, slow, fast) and optimal solution using dummy node technique. Both achieve O(n) time complexity and O(1) space complexity. The optimal solution uses dummy node to simplify edge case handling when removing the head node |
 | 2025-09-26 | Solved LeetCode Problem #226: Invert Binary Tree (Easy, Tree/DFS/BFS/Binary Tree) - Implemented recursive solution with in-place swapping and provided alternative iterative solutions using both BFS queue and DFS stack approaches. Achieved O(n) time complexity and O(h) space complexity for tree inversion |
 | 2025-09-26 | Solved LeetCode Problem #100: Same Tree (Easy, Tree/DFS/BFS/Binary Tree) - Implemented recursive solution with elegant logic using short-circuit evaluation and provided alternative iterative solution using stack. Achieved O(min(m,n)) time complexity and space complexity for comparing structural and value equality of binary trees |
