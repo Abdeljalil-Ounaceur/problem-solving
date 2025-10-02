@@ -4,6 +4,7 @@
 ## Updates Log 
 | Date | Summary |
 |------|---------|
+| 2025-10-01 | Solved LeetCode Problem #25: Reverse Nodes in k-Group (Hard, Linked List/Recursion) - Implemented optimal O(1) space solution using dummy node technique with in-place k-group reversal. Also provided alternative recursive approach with O(n/k) space complexity. The optimal solution reverses nodes in groups of k while maintaining constant space |
 | 2025-09-30 | Solved LeetCode Problem #704: Binary Search (Easy, Array/Binary Search) - Implemented classic iterative binary search with O(log n) time complexity and O(1) space complexity. Also provided recursive solution and bisect module approach for comparison |
 | 2025-09-30 | Solved LeetCode Problem #98: Validate Binary Search Tree (Medium, Tree/Depth-First Search/Binary Search Tree/Binary Tree) - Implemented recursive DFS solution with range validation using min/max bounds to validate BST property. Also provided alternative iterative solution using inorder traversal. Both achieve O(n) time complexity and O(h) space complexity |
 | 2025-09-29 | Solved LeetCode Problem #103: Binary Tree Zigzag Level Order Traversal (Medium, Tree/Breadth-First Search/Binary Tree) - Implemented two approaches: initial solution using reverse() for odd levels and optimal solution using deque with directional appending (appendleft/append). The optimal approach avoids the reverse operation by building levels in correct order from the start |
