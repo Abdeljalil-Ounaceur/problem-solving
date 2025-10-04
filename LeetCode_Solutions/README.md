@@ -4,6 +4,7 @@
 ## Updates Log 
 | Date | Summary |
 |------|---------|
+| 2025-10-04 | Solved LeetCode Problem #70: Climbing Stairs (Easy, Dynamic Programming/Math/Memoization) - Implemented optimal space-optimized DP solution using Fibonacci sequence approach with O(n) time complexity and O(1) space complexity. Also provided alternative recursive memoized and DP array solutions for comparison |
 | 2025-10-03 | Solved LeetCode Problem #236: Lowest Common Ancestor of a Binary Tree (Medium, Tree/Depth-First Search/Binary Tree) - Implemented recursive DFS solution that searches for both nodes and identifies LCA when both subtrees return non-null results. Achieves O(n) time complexity and O(h) space complexity for recursion stack |
 | 2025-10-03 | Solved LeetCode Problem #235: Lowest Common Ancestor of a Binary Search Tree (Medium, Tree/Depth-First Search/Binary Search Tree/Binary Tree) - Implemented optimal iterative solution leveraging BST property to navigate left/right based on node values. Achieves O(h) time complexity and O(1) space complexity. Also provided recursive alternative with O(h) space |
 | 2025-10-02 | Solved LeetCode Problem #297: Serialize and Deserialize Binary Tree (Hard, String/Tree/Depth-First Search/Breadth-First Search/Design/Binary Tree) - Implemented both initial solution using empty strings for null nodes and optimal solution using explicit "null" markers. The optimal approach uses preorder traversal with iterator pattern for cleaner deserialization, achieving O(n) time complexity for both operations |
