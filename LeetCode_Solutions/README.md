@@ -4,6 +4,7 @@
 ## Updates Log
 | Date | Summary |
 |------|---------|
+| 2025-11-04 | Solved LeetCode Problem #127: Word Ladder (Hard, Breadth-First Search/Hash Table/String) - Implemented an optimal BFS solution. The key insight is to build an adjacency map using patterns (e.g., "h*t" for "hot") to efficiently find neighbors, then use BFS to find the shortest path. |
 | 2025-11-03 | Solved LeetCode Problem #124: Binary Tree Maximum Path Sum (Hard, Tree/DFS/DP) - Implemented a recursive DFS solution. The key insight is that for each node, the max path can either pass through the node (connecting left and right subtrees) or be a path that ends at the node (extending from one of its subtrees). The function returns the max path ending at the current node, while a global max is updated to track the overall maximum path sum found anywhere in the tree. |
 | 2025-11-02 | Solved LeetCode Problem #155: Min Stack (Easy, Stack/Design) - Implemented a solution using two stacks to achieve O(1) time complexity for push, pop, top, and getMin operations. One stack stores the elements, and the other (min_stack) stores the minimum value at each point in time. |
 | 2025-11-02 | Solved LeetCode Problem #621: Task Scheduler (Medium, Array/Hash Table/Greedy/Sorting/Heap (Priority Queue)/Counting) - Implemented two solutions: an optimal mathematical approach with O(n) time and O(1) space, and an alternative greedy simulation using a max heap with O(n log k) time and O(k) space, where k is the number of unique tasks. |
