@@ -2,7 +2,7 @@
 This repository is structured to track daily progress for the August 2025 study schedule, optimized for portfolio building and Google AI readiness. 
 
 ## Structure
-- **DeepML Projects** → DeepML_Projects/README.md
+- **DeepML Projects** → DeepML_Projects/README.md 
 - **Capstone Project** → Capstone_Project/README.md
 - **LeetCode Solutions** → LeetCode_Solutions/README.md
 - **Interview Query Case Studies** → Interview_Query_Case_Studies/README.md
