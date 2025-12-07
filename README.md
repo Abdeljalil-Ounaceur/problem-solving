@@ -1,4 +1,4 @@
-# Portfolio Study Schedule - GitHub Tracker 
+# Portfolio Study Schedule - GitHub Tracker  
 This repository is structured to track daily progress for the August 2025 study schedule, optimized for portfolio building and Google AI readiness. 
 
 ## Structure
