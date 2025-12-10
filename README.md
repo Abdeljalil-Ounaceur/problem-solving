@@ -1,6 +1,6 @@
 # Portfolio Study Schedule - GitHub Tracker   
 This repository is structured to track daily progress for the August 2025 study schedule, optimized for portfolio building and Google AI readiness.  
-
+ 
 ## Structure
 - **DeepML Projects** → DeepML_Projects/README.md 
 - **Capstone Project** → Capstone_Project/README.md
